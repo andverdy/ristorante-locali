@@ -19,6 +19,7 @@ public class LocaliController {
 
     @GetMapping("/getLocali")
     public List<LocaliEntity> getArticles() {
+
         return localiRepository.findAll();
     }
 }
